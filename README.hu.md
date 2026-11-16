@@ -22,13 +22,13 @@ Ez egy vékony metacsomag: nincs saját kódja, csak a [`intragile/laravel-einvo
 
 ```bash
 composer require intragile/laravel-xrechnung
-php artisan migrate
 ```
 
 Telepítsd a Peppol validációs szabályokat (az alapértelmezett validátor akkor is betölti őket, ha csak XRechnung dokumentumot küldesz), és add meg a transportot, amelyen keresztül küldesz:
 
 ```bash
 php artisan einvoicing:install-rules
+php artisan migrate   # létrehozza a két táblát
 ```
 
 ```dotenv

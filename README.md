@@ -22,13 +22,13 @@ This is a thin metapackage: it has no code of its own and pulls in [`intragile/l
 
 ```bash
 composer require intragile/laravel-xrechnung
-php artisan migrate
 ```
 
 Install the Peppol validation rules (the default validator loads them even when you send only XRechnung documents) and set the transport you send through:
 
 ```bash
 php artisan einvoicing:install-rules
+php artisan migrate   # create the two tables
 ```
 
 ```dotenv
