@@ -64,7 +64,7 @@ The invoice carries its own routing (sender, receiver and process) and XRechnung
 
 ## What it pulls in
 
-`intragile/laravel-einvoicing` (the Laravel bridge, MIT), which brings the engine `intragile/php-einvoicing` (MIT) and the EN 16931 rules `intragile/einvoicing-rules-en16931` (EUPL-1.2), plus `intragile/einvoicing-rules-xrechnung` (the KoSIT XRechnung rules, Apache-2.0).
+`intragile/laravel-einvoicing` (the Laravel bridge, MIT), which brings the engine `intragile/php-einvoicing` (MIT) and all three rule packages (`intragile/einvoicing-rules-en16931`, `-xrechnung` and `-facturx`), plus `intragile/einvoicing-rules-xrechnung` (the KoSIT XRechnung rules, Apache-2.0).
 
 The metapackage itself is MIT-licensed and ships no code; each pulled package keeps its own licence.
 
