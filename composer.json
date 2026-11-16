@@ -1,0 +1,38 @@
+{
+    "name": "intragile/laravel-xrechnung",
+    "description": "Laravel XRechnung: create, validate and send German XRechnung 3.0 e-invoices (UBL and CII) with the KoSIT rules, over Peppol, on top of intragile/laravel-einvoicing.",
+    "keywords": [
+        "laravel",
+        "xrechnung",
+        "e-invoicing",
+        "einvoice",
+        "en16931",
+        "kosit",
+        "leitweg-id",
+        "germany",
+        "b2g",
+        "ubl",
+        "cii"
+    ],
+    "type": "metapackage",
+    "license": "MIT",
+    "homepage": "https://intragile.eu",
+    "support": {
+        "issues": "https://github.com/intragile/laravel-xrechnung/issues",
+        "source": "https://github.com/intragile/laravel-xrechnung"
+    },
+    "authors": [
+        {
+            "name": "IntrAgile Kft.",
+            "email": "info@intragile.eu",
+            "homepage": "https://intragile.eu"
+        }
+    ],
+    "require": {
+        "intragile/einvoicing-rules-xrechnung": "^1.0",
+        "intragile/laravel-einvoicing": "^1.0",
+        "php": "^8.3"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
