@@ -15,7 +15,7 @@ This is a thin metapackage: it has no code of its own and pulls in [`intragile/l
 
 ## Requirements
 
-- PHP 8.3+ with `dom`, `libxml`, `mbstring`
+- PHP 8.3+ with `dom`, `libxml`, `mbstring`, `zlib`
 - Laravel 12 or 13
 
 ## Quick start

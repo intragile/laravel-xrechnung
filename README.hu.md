@@ -15,7 +15,7 @@ Ez egy vékony metacsomag: nincs saját kódja, csak a [`intragile/laravel-einvo
 
 ## Követelmények
 
-- PHP 8.3+ a `dom`, `libxml` és `mbstring` kiterjesztéssel
+- PHP 8.3+ a `dom`, `libxml`, `mbstring` és `zlib` kiterjesztéssel
 - Laravel 12 vagy 13
 
 ## Telepítés

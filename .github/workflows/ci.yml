@@ -5,6 +5,7 @@ name: install
 
 on:
   push:
+    branches: [main]
   pull_request:
   schedule:
     - cron: "41 4 * * 3"
